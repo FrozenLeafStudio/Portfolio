@@ -1,34 +1,15 @@
-body {
-	vertical-align: center;
+.round-image {
+	border-radius: 50%;
 }
 
-h1 {
-	color: #00000;
-	font-family: "Lucida Console";
+.avatar {
+	border-width: 2px;  
+	border-height: 2px;
+	border-color: #276cda;
+	border-style: solid;
+	margin-top: 1em;
 }
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-li {
-	float: left;
-}
-
-li a {
-   display: inline-block;
-   color: black;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-}
-
-li a:hover {
-	background-color: green;
-}
-img {
-	display: block;
-	clear: center;
+#name {
+	color: white;
 }
